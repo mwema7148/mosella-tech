@@ -22,19 +22,15 @@
 	
 	
 	body.index-index {
-				background:url('/assets/images/stok.jpg');
-			background-size:cover;
 			
 	}
 	
 	body.home-index {
-				background:url('/assets/images/stok.jpg');
-			background-size:cover;
+			
 	}
 	
 	body.index-register {
-			background:url('/assets/images/stok.jpg');
-			background-size:cover;
+			
 	}
 	
 
@@ -95,6 +91,70 @@
 	}
 
 	body.city-accountedit {
+		
+	}
+
+	body.table1-index {
+		
+	}
+
+	body.table1-view {
+		
+	}
+
+	body.table1-add {
+		
+	}
+
+	body.table1-edit {
+		
+	}
+
+	body.table1-index {
+		
+	}
+
+	body.table1-view {
+		
+	}
+
+	body.table1-add {
+		
+	}
+
+	body.table1-edit {
+		
+	}
+
+	body.table1-index {
+		
+	}
+
+	body.table1-view {
+		
+	}
+
+	body.table1-add {
+		
+	}
+
+	body.table1-edit {
+		
+	}
+
+	body.articles-index {
+		
+	}
+
+	body.articles-view {
+		
+	}
+
+	body.articles-add {
+		
+	}
+
+	body.articles-edit {
 		
 	}
 
@@ -402,363 +462,15 @@
 		
 	}
 
-	body.login-index {
+	body.pma__users-userregister {
 		
 	}
 
-	body.login-view {
+	body.pma__users-accountview {
 		
 	}
 
-	body.login-add {
-		
-	}
-
-	body.login-edit {
-		
-	}
-
-	body.sales-index {
-		
-	}
-
-	body.sales-view {
-		
-	}
-
-	body.sales-add {
-		
-	}
-
-	body.sales-edit {
-		
-	}
-
-	body.login-userregister {
-		
-	}
-
-	body.login-accountview {
-		
-	}
-
-	body.login-accountedit {
-		
-	}
-
-	body.products-index {
-	    background:url('/assets/images/stok.jpg');
-			background-size:cover;
-		
-	}
-
-	body.products-view {
-		
-	}
-
-	body.products-add {
-		
-	}
-
-	body.products-edit {
-		
-	}
-
-	body.table3-index {
-		
-	}
-
-	body.table3-view {
-		
-	}
-
-	body.table3-add {
-		
-	}
-
-	body.table3-edit {
-		
-	}
-
-	body.table3-index {
-		
-	}
-
-	body.table3-view {
-		
-	}
-
-	body.table3-add {
-		
-	}
-
-	body.table3-edit {
-		
-	}
-
-	body.services-index {
-	    background:url('/assets/images/stok.jpg');
-			background-size:cover;
-		
-	}
-
-	body.services-view {
-		
-	}
-
-	body.services-add {
-		
-	}
-
-	body.services-edit {
-		
-	}
-
-	body.login2-index {
-		
-	}
-
-	body.login2-view {
-		
-	}
-
-	body.login2-add {
-		
-	}
-
-	body.login2-edit {
-		
-	}
-
-	body.services-index {
-		
-	}
-
-	body.services-view {
-		
-	}
-
-	body.services-add {
-		
-	}
-
-	body.services-edit {
-		
-	}
-
-	body.table4-index {
-		
-	}
-
-	body.table4-view {
-		
-	}
-
-	body.table4-add {
-		
-	}
-
-	body.table4-edit {
-		
-	}
-
-	body.contact_us-index {
-	    background:url('/assets/images/stok.jpg');
-			background-size:cover;
-		
-	}
-
-	body.contact_us-view {
-		
-	}
-
-	body.contact_us-add {
-		
-	}
-
-	body.contact_us-edit {
-		
-	}
-
-	body.table5-index {
-		
-	}
-
-	body.table5-view {
-		
-	}
-
-	body.table5-add {
-		
-	}
-
-	body.table5-edit {
-		
-	}
-
-	body.about-index {
-	    background:url('/assets/images/stok.jpg');
-			background-size:cover;
-		
-	}
-
-	body.about-view {
-		
-	}
-
-	body.about-add {
-		
-	}
-
-	body.about-edit {
-		
-	}
-
-	body.table5-index {
-		
-	}
-
-	body.table5-view {
-		
-	}
-
-	body.table5-add {
-		
-	}
-
-	body.table5-edit {
-		
-	}
-
-	body.about-index {
-	    background:url('/assets/images/stok.jpg');
-			background-size:cover;
-		
-	}
-
-	body.about-view {
-		
-	}
-
-	body.about-add {
-		
-	}
-
-	body.about-edit {
-		
-	}
-
-	body.table5-index {
-		
-	}
-
-	body.table5-view {
-		
-	}
-
-	body.table5-add {
-		
-	}
-
-	body.table5-edit {
-		
-	}
-
-	body.table5-index {
-		
-	}
-
-	body.table5-view {
-		
-	}
-
-	body.table5-add {
-		
-	}
-
-	body.table5-edit {
-		
-	}
-
-	body.about-index {
-		
-	}
-
-	body.about-view {
-		
-	}
-
-	body.about-add {
-		
-	}
-
-	body.about-edit {
-		
-	}
-
-	body.table5-index {
-		
-	}
-
-	body.table5-view {
-		
-	}
-
-	body.table5-add {
-		
-	}
-
-	body.table5-edit {
-		
-	}
-
-	body.about_us-index {
-	    background:url('/assets/images/stok.jpg');
-			background-size:cover;
-		
-	}
-
-	body.about_us-view {
-		
-	}
-
-	body.about_us-add {
-		
-	}
-
-	body.about_us-edit {
-		
-	}
-
-	body.table6-index {
-		
-	}
-
-	body.table6-view {
-		
-	}
-
-	body.table6-add {
-		
-	}
-
-	body.table6-edit {
-		
-	}
-
-	body.social_links-index {
-		
-	}
-
-	body.social_links-view {
-		
-	}
-
-	body.social_links-add {
-		
-	}
-
-	body.social_links-edit {
+	body.pma__users-accountedit {
 		
 	}
 body {
@@ -1718,51 +1430,7 @@ label {
   87.5% {
     box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
   }
-}body{
-	padding-top:50px;
-}
-
-@media(min-width:768px) {
-	#main .navbar-fixed-left {
-		width: 250px;
-		position: fixed;
-		border-radius: 0;
-		height: 100%;
-		left:0;
-		height:100%;
-		top:58px;
-	}
-	
-	.navbar-fixed-left .navbar-nav > li > .dropdown-menu {
-	  margin-top: -50px !important;
-	  left: 250px !important;
-	}
-	
-	.navbar-fixed-left .navbar-nav > li > a {
-	  padding: 11px !important;
-	}
-	.navbar-fixed-left .navbar-nav > li > a.dropdown-toggle::after {
-		float: right;
-		margin-right:7px;
-		margin-top:7px;
-	}
-	
-	.navbar-fixed-left .navbar-nav > li > a .fa {
-	  margin-right:10px;
-	}
-	
-	#main #main-content {
-	  padding-left: 250px;
-	}
-}
-
-.navbar-fixed-left .navbar-collapse{
-	margin:0 !important;
-	padding:0 !important;
-	min-height:auto !important;
-}
-
-.navbar-brand{
+}.navbar-brand{
 	min-width:15%;
 }
 

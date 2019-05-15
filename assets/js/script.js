@@ -287,6 +287,21 @@ $(document).ready(function() {
 	
 	
 	
+	$('.datepicker').flatpickr({
+		altInput: true, 
+		allowInput:true,
+		onReady: function(dateObj, dateStr, instance) {
+			var $cal = $(instance.calendarContainer);
+			if ($cal.find('.flatpickr-clear').length < 1) {
+				$cal.append('<button class="btn btn-light my-2 flatpickr-clear">Clear</button>');
+				$cal.find('.flatpickr-clear').on('click', function() {
+					instance.clear();
+					instance.close();
+				});
+			}
+		}
+	});
+
 	
 });
 
@@ -329,82 +344,6 @@ $(window).bind('load', function() {
 
 
 
-Dropzone.autoDiscover = false;
-$(function(){
-	$('.dropzone').each(function(){
-		var uploadUrl = $(this).attr('path') || setPathLink('filehelper/uploadfile/');
-		var multiple = $(this).data('multiple') || false;
-		var limit = $(this).attr('maximum') || 1;
-		var size = $(this).attr('filesize') || 10;
-		var dropmsg = $(this).attr('dropmsg') || 'Drag and dDrop files here';
-		var dragdrop = $(this).attr('dropmsg');
-		var autoSubmit = $(this).attr('autosubmit') || true;
-		var accept = $(this).attr('accept') || "";
-		var extensions = $(this).attr('extensions') || "*";
-		var filenameformat = $(this).attr('filenameformat') || "random";
-		var returnfullpath = $(this).attr('returnfullpath') || true;
-		var filenameprefix = $(this).attr('filenameprefix') || '';
-		var dir = $(this).attr('dir') || 'uploads/files/';
-		var btntext = $(this).attr('btntext') || 'Choose file';
-		
-		
-		var input = $(this).attr('input');
-		
-		$('.dropzone').dropzone({ 
-			url:uploadUrl ,
-			maxFilesize:size,
-			uploadMultiple:multiple,
-			paramName:'file',
-			maxFiles:limit,
-			addRemoveLinks:true,
-		
-			params: {
-				title : "{{" + filenameformat + "}}",
-				returnfullpath:returnfullpath,
-				filenameprefix:filenameprefix,
-				extensions:extensions,
-				maxSize:size,
-				uploadDir:dir,
-				limit:limit
-			},
-			init: function() {
-				this.on('addedfile', function(file) {
-					if (this.files.length > limit) {
-					  this.removeFile(this.files[0]);
-					}
-				});
-
-				this.on("success", function(file, responseText) {
-					console.log("uploaded file",responseText);
-					var files = $(input).val() + ',' + responseText;
-					files = files.trim().trimLeft(',')
-					$(input).val(files);
-				});
-				
-				this.on("removedfile", function(file) {
-					var filename = file.xhr.responseText;
-
-					var files = $(input).val();
-					var arrFiles = files.split(',');
-					while (arrFiles.indexOf(filename) !== -1) {
-						arrFiles.splice(arrFiles.indexOf(filename), 1);
-					}
-					
-					$(input).val(arrFiles.toString());
-				});
-				
-				this.on("complete", function (file) {
-					//do something all files uploaded
-				});
-			},
-			dictDefaultMessage:dropmsg,
-			/* dictRemoveFile:'' */
-		});
-	});
-});
-
-
-
 
 $(function () { 
   $('[data-toggle="tooltip"]').tooltip({trigger: 'manual'}).tooltip('show');
@@ -413,13 +352,4 @@ $(function () {
 $(function() {
 	$(".switch-checkbox").bootstrapSwitch();
 });
-(function(){
-	var winHeight = $(window).height();
-	var navTopHeight = $('#topbar').outerHeight();
-	var sideHeight = winHeight-navTopHeight;
-	document.body.style.paddingTop = navTopHeight + 'px';
-	$('#sidebar').css('top',navTopHeight);
-	$('#sidebar').css('min-height',sideHeight);
-}
-)();
 
